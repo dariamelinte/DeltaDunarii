@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title></title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- Sidebar  -->
+        <nav id="sidebar">
+                <div class="sidebar-header">
+                    <h3><a href="index.html">Delta Dunării</a></h3>
+                </div>
+
+                <ul class="list-unstyled components">
+                <li>
+                        <a href="informatii-geografice.html">Informații geografice</a>
+                </li>
+                    <li>
+                        <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle"> Biodiversitate </a>
+                        <ul class="collapse list-unstyled" id="pageSubmenu">
+                            <li>
+                                <a href="Habitate.html"> Habitate </a>
+                            </li>
+                            <li>
+                                <a href="Flora.html"> Floră </a>
+                            </li>
+                            <li>
+                                <a href="Fauna.html"> Faună </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Obiective-Turistice.html">Obiective Turistice</a>
+                    </li>
+                    <li>
+                        <a href="Galerie.html">Galerie </a>
+                    </li>
+                </ul>
+
+            </nav>
+        <!-- Page Content  -->
+        <div id="content" style="text-align: justify; text-justify: inter-word; margin: 0 10vw;">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+
+                    <button type="button" id="sidebarCollapse" class="btn btn-info">
+                        <i class="fas fa-align-left"></i>
+                        <span></span>
+                    </button>
+                    <button class="btn btn-dark d-inline-block d-lg-none ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-align-justify"></i>
+                    </button>
+
+                    </div>
+            </nav>
+
+            <h2 style="text-align: center; color:#3b79b6"> Obiective Turistice În Delta Dunării</h2><p>&nbsp;</p>
+            
+            <p> Pe teritoriul și în vecinătatea parcului național se află mai multe obiective de interes turistic 
+                (lăcașuri de cult, monumente istorice, situri arheologice, arii protejate, zone naturale); astfel:</p>
+
+            <ul  style="color: #999;">
+
+                <li> Biserica ortodoxă „Buna Vestire” din Tulcea, construcție 1869, monument istoric.</li>
+                <li> Mănăstirea și castrul roman Halmyris de la Murighiol.</li>
+                <li> Moscheea Azizyie (<em>Geamia Sultanului Abdulaziz</em>) din Tulcea, lăcașul de cult 
+                reprezentativ al comunității musulmane construit în anul 1863, monument istoric.</li>
+                <li> Așezarea greco-indigenă din satul Sălcioara (sit arheologic).</li>
+                <li> Cetatea Argamum - Orgame, sit arheologic aflat în partea de est a județului Tulcea, pe teritoriul 
+                administrativ al comunei Jurilovca, în locul numit Capul Doloșman. Acesta este localizat la contactul dintre 
+                Podișul Babadagului și Limanul Razim care, în Antichitate, era un golf deschis al mării Negre (golful Argamon).</li>
+                <li> Histria, cetate grecească (ruine) aflată pe teritoriul administrativ al comunei Istria, în județul Constanța; 
+                cel mai vechi oraș atestat de pe actualul teritoriu al României.</li>
+                <li> Situl arheologic de la Vișina</li>
+                <li> Munții Măcinului</li>
+                <li> Marea Neagră</li>
+                <li> Complexul lagunar Razim-Sinoe (Limanele Dobrogene) constituit din cele două unități: <em>Unitatea Razim</em> cu 
+                lacurile Golovița, Zmeica, Babadag, Tauc, Topraichioi și cel omonim; și <em>Unitatea Sinoe</em> ce cuprinde lacurile Nuntași, Tuzla și Sinoe</li>
+                <li> Cimitirul cosmopolit din Sulina, un cimitir în care sunt înmormântați marinari din toată lumea, victime de naufragiu și chiar pirați. 
+                Există mormântul unui pirat fără nume, sunt mormintele îndrăgostiților înecați, al unei prințese și multe alte locuri de veci pline de poveste</li>
+
+            </ul>
+            <p>&nbsp;</p>
+            <img src="images/moschee.jpg" alt="Moscheea Azizyie din Tulcea" style="width:60%; margin-left: 20%;">
+            <p>&nbsp;</p>
+        </div>
+    </div>
+
+    <!-- jQuery CDN - Slim version (=adica fara AJAX) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+        });
+    </script>
+</body>
+
+</html>
